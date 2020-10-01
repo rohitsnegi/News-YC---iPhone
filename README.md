@@ -39,7 +39,7 @@ It's fairly easy to use the navigation brain as well:
 HNNavigationBrain.navigateToComments(somePost)
 ```
 
-## HNTheme
+## HNTheme 
 
 `HNTheme.currentTheme()` acts as the main interface for all them and color related functionality of the app. The `currentTheme()` singleton instance determines how all UI color schemes are assigned, and handles the notifications blasted out when the theme is changed. All HNViewControllers and their subclasses override the `resetUI()` method to reset after a theme change.
 
